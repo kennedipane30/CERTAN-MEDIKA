@@ -1,0 +1,16 @@
+{
+  "backbone": "efficientnetb0",
+  "format": ".keras",
+  "input_size": [
+    224,
+    224,
+    3
+  ],
+  "input_range": "gambar mentah 0-255 (preprocessing sudah ada di dalam model)",
+  "output": "1 nilai sigmoid = probabilitas kelas ke-2",
+  "threshold": 0.5,
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ]
+}
