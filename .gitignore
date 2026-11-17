@@ -1,0 +1,11 @@
+data/raw/*
+data/external/*
+!data/raw/.gitkeep
+!data/external/.gitkeep
+models/*.keras
+models/*.h5
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
